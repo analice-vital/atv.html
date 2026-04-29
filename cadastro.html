@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+<p>Formulário de cadastro de alunos.</p>
+
+<form action="sucesso.html" method="get">
+        
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome" required><br><br>
+
+<label for="idade">Idade:</label>
+<input type="number" id="idade" name="idade" required><br><br>
+        
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required><br><br>
+        
+<label for="curso">Curso:</label>
+<select id="curso" name="curso" required>
+    <option value="">Selecione um curso</option>
+    <option value="informatica">Informática</option>
+    <option value="enfermagem">Enfermagem</option>
+    <option value="engenharia">Engenharia</option>
+    <option value="administração">Administração</option>
+    </select><br><br>
+
+    <label for="turno">Turno/Período:</label>
+<select id="turno" name="turno" required>
+    <option value="">Selecione</option>
+    <option>Manhã</option>
+    <option>Tarde</option>
+    <option>Noite</option>
+</select><br><br>
+
+<label for="interesses">Interesses:</label><br>
+<input type="checkbox" name="interesses"> Tecnologia<br>
+<input type="checkbox" name="interesses"> Saúde<br>
+<input type="checkbox" name="interesses"> Negócios<br>
+<input type="checkbox" name="interesses"> Engenharia<br>
+
+<input type="submit" value="Enviar">
+    <input type="submit" value="Cadastrar">
+    
+    </form>
+
+</body>
+</html>
+    
+</body>
+</html>
